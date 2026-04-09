@@ -1,0 +1,53 @@
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+**/bin/
+**/obj/
+*.dll
+*.exe
+*.pdb
+
+# Ignore VS folder
+.vs/
+.vscode/
+
+# Ignore build configuration files
+*.cache
+*.log
+*.vspscc
+*.vssscc
+
+# Ignore Razor artifacts
+**/Debug/net*/rjs*.json
+**/Debug/net*/staticwebassets*
+
+# Ignore package folders
+packages/
+.nuget/
+
+# Ignore publish output
+**/publish/
+*.Publish.xml
+
+# Ignore Rider/JetBrains IDEs (if used)
+.idea/
+*.sln.iml
+
+# Ignore test results
+TestResults/
+
+# Visual Studio publish profiles
+Properties/PublishProfiles/
+*.pubxml
+
+# Ignore local secrets
+secrets.json
+
+# Optional: Ignore ReSharper files
+_ReSharper*/
+*.DotSettings.user
+
